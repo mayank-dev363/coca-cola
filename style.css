@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 39, 39);
+}
+#nav{
+    height: 110px;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* padding: 0 50px; */
+    justify-content: space-between;
+    /* position: sticky; */
+    margin-left: 5%;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 62%;
+    margin-left: 70px;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    color: white;
+}#nav i{
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 35px;
+    color: white;
+}
+#nav h5{
+    font-size: 17px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    /* padding-left: 10px; */
+
+}
+#nav img{
+    height: 60px;
+    margin-top: -8px;
+
+}
+#line{
+    width: 60px;
+    height: 2px;
+    background-color: red;
+}
+#nav h5:hover{
+    color:red;
+    /* background-color: black; */
+    /* bottom: -14.5px; */
+
+}
+#nav i:hover{
+    color: rgb(226, 7, 25);
+}
+#nav h1:hover{
+    color: brown;
+}
+#content{
+    height: calc(100% - 110px);
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    padding: 140px 110px;
+}
+#right{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(43, 226, 83); */
+    /* background-image: url(coke/bottle2.png); */
+    /* display: flex; */
+    padding-top: 200px;
+    padding-left: 40px;
+}
+#center{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(226, 119, 43); */
+    padding-top: 30px;
+}
+#left h1{
+    font-size: 45px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#left h1 span{
+    color: red;
+}
+#left p span{
+    margin-bottom: 10px;
+    font-size:17px ;
+    color: brown;
+    margin-left: -40px;
+}
+#left p{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 75%;
+}
+#left button{
+    background-color: red;
+    padding: 12px 27px;
+    font-size: 17px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    height: 90%;
+    width: 98%;
+    background-color: aquamarine;
+    border-radius: 70% 70% 0% 0%;
+    background-image: url(back.jpg);
+    background-size: 300%;
+    background-position: 30% 50%;
+    filter: blur(3px);
+}
+#content>img{
+    height: 90%;
+    position: absolute;
+    left: 45%;
+    /* transform: translate(-40%,0); */
+    z-index: 99;
+    /* display: flex; */
+}
+a{
+    text-decoration: none;
+}
+#right-elems{
+    /* background-color: brown; */
+    width: 380px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    opacity: 0.8;
+    border-bottom: 2px solid whitesmoke;
+}
+#elem1 h1{
+    font-size: 22px;
+    font-weight: 700px;
+}
+#elem1 i{
+    font-size: 25px;
+}
+#elem2 h1{
+    font-size: 22px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size: 14px;
+    width: 70%;
+    opacity: 0.8;
+}
+#right img{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    margin-top: -170px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
